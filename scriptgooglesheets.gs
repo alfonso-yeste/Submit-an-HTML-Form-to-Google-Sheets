@@ -1,5 +1,3 @@
-// Primero de todo hay que abrir una google sheets para insertar este código:
-
 // original from: http://mashe.hawksey.info/2014/07/google-sheets-as-a-database-insert-with-apps-script-using-postget-methods-with-ajax-example/
 // original gist: https://gist.github.com/willpatera/ee41ae374d3c9839c2d6 
 
@@ -8,7 +6,7 @@ function doGet(e){
 }
 
 //  Enter sheet name where data is to be written below
-        var SHEET_NAME = "Sheet1";
+        var SHEET_NAME = "Hoja 1";
 
 var SCRIPT_PROP = PropertiesService.getScriptProperties(); // new property service
 
